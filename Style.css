@@ -110,11 +110,11 @@ display: none;
 @media screen and (max-width:490px) {
 
     .container{
-        width: 70%;
-        max-width: 450px;
-        background:linear-gradient(125deg,#02a7ff,#adc20c);
+        width: 90%;
+        
+        background:linear-gradient(125deg,#02a6ffb5,#adc20cd6);
        
-        height: 100vh;
+        height: 80vh;
     }
     .search_box input{
         width: 100px;
@@ -136,11 +136,22 @@ display: none;
     }
     .col{
        
-       padding: 30px;
+       padding: 20px;
     }
    
     .error{
         margin-top: 20px;
         color: rgb(0, 0, 0);
     }
+    video{
+        height: 100%;
+    }
+    .weather_detailes h2{   
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .weather_detailes h1{   
+        font-size: 2.5em;
+        font-weight: 500;
+}
 }
