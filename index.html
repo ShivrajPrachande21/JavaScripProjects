@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_forcast</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  
+    
+    <div class="container">
+        <video autoplay loop plays-inline muted id="clouds">
+                  <source src="clouds.mp4" type="video/mp4">
+        </video>
+
+        <video autoplay loop plays-inline muted id="clear">
+            <source src="clear.mp4" type="video/mp4">
+        </video>
+        <video autoplay loop plays-inline muted id="rainy">
+            <source src="rainy.mp4" type="video/mp4">
+        </video>
+       
+        <div class="search_box">
+            <input type="text" id="search-txt" spellcheck="false" placeholder="enter city name to search">
+            <button id="src-btn"><img src="search.png" alt=""></button>
+            
+        </div>
+        <div class="error">
+            <p>Enter the city name Correctly</p>
+        </div>
+       
+        <div class="weather_detailes">
+            <img src="clouds.png" alt="" class="weather-img">
+            <h1 class="temp">--</h1>
+            <h2 class="city_name">--</h2>
+
+        </div>
+        <div class="weather">
+            <div class="col">
+                <img src="humidity.png" alt="">
+                <div>
+                    <p class="humidity">--</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="wind.png" alt="">
+                <div>
+                    <p class="wind">--</p>
+                    <p>Wind speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
